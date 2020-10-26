@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #dee2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.header h2 {
+  color: #8e9aaf;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.contact aside {
+  width: 30%;
+  background-color: #feeafa;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: #fff solid 3px;
+}
+.contact aside ul {
+  list-style-type: none;
+}
+.contact aside ul li {
+  padding: 15px;
+}
+.contact aside ul li a {
+  text-decoration: none;
+}
+.contact form {
+  width: 70%;
+  background-color: #feeafa;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact form input {
+  width: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */
